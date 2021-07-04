@@ -1,0 +1,2 @@
+class Precom < ApplicationRecord
+end

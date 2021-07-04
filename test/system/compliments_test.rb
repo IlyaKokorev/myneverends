@@ -14,7 +14,6 @@ class ComplimentsTest < ApplicationSystemTestCase
     visit compliments_url
     click_on "New Compliment"
 
-    fill_in "Content", with: @compliment.content
     click_on "Create Compliment"
 
     assert_text "Compliment was successfully created"
@@ -25,7 +24,6 @@ class ComplimentsTest < ApplicationSystemTestCase
     visit compliments_url
     click_on "Edit", match: :first
 
-    fill_in "Content", with: @compliment.content
     click_on "Update Compliment"
 
     assert_text "Compliment was successfully updated"
