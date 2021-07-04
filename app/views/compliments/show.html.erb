@@ -1,4 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Content:</strong>
+  <%= @compliment.content %>
+</p>
+
 <%= link_to 'Edit', edit_compliment_path(@compliment) %> |
 <%= link_to 'Back', compliments_path %>

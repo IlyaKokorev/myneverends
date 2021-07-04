@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Content</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -12,6 +13,7 @@
   <tbody>
     <% @compliments.each do |compliment| %>
       <tr>
+        <td><%= compliment.content %></td>
         <td><%= link_to 'Show', compliment %></td>
         <td><%= link_to 'Edit', edit_compliment_path(compliment) %></td>
         <td><%= link_to 'Destroy', compliment, method: :delete, data: { confirm: 'Are you sure?' } %></td>

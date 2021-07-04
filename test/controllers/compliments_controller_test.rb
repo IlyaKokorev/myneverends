@@ -17,7 +17,7 @@ class ComplimentsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create compliment" do
     assert_difference('Compliment.count') do
-      post compliments_url, params: { compliment: {  } }
+      post compliments_url, params: { compliment: { content: @compliment.content } }
     end
 
     assert_redirected_to compliment_url(Compliment.last)
@@ -34,7 +34,7 @@ class ComplimentsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update compliment" do
-    patch compliment_url(@compliment), params: { compliment: {  } }
+    patch compliment_url(@compliment), params: { compliment: { content: @compliment.content } }
     assert_redirected_to compliment_url(@compliment)
   end
 

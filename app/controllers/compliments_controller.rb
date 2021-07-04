@@ -64,6 +64,6 @@ class ComplimentsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def compliment_params
-      params.fetch(:compliment, {})
+      params.require(:compliment).permit(:content)
     end
 end
