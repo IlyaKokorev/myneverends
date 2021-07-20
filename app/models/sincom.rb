@@ -1,0 +1,2 @@
+class Sincom < ApplicationRecord
+end

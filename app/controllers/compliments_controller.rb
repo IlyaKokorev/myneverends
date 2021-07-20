@@ -1,6 +1,6 @@
 class ComplimentsController < ApplicationController
   def index
-    @precom = Precom.all.sample
-    @pastcom = Pastcom.all.sample
+    @sincom = Sincom.all.sample
+    @dubcom = [Precom.all.sample, Pastcom.all.sample]
   end
 end
