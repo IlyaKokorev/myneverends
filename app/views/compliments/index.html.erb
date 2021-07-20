@@ -3,9 +3,13 @@
 <div class="container-fluid d-flex h-100 justify-content-center align-items-center p-0">
   <div>
     <div>
-      <h1 class="first_block text-center mb-4"><%= @dubcom[0] %></h1>
-      </br>
-      <h2 class="second_block text-center mb-4"><%= @dubcom[1] %></h2>
+      <% if @compliment[0].size > 1 %>
+        <h1 class="first_block text-center mb-4"><%= @compliment[0][0] %></h1>
+        </br>
+        <h2 class="second_block text-center mb-4"><%= @compliment[0][1] %></h2>
+      <% else %>
+        <h1 class="first_block text-center mb-4"><%= @compliment[0][0] %></h1>
+      <% end %>
     </div>
   </div>
 </div>
