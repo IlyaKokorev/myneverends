@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-require 'database_cleaner'
-
-DatabaseCleaner.clean_with(:truncation)
-
 precom = ['Сегодня ты самая...']
 pastcom = ['ангельски прекрасная', 'лучезарная и ослепительная', 'чарующая и сказочная',
            'таинственная и желанная', 'завораживюще красивая', 'сияющая и ненаглядная',
