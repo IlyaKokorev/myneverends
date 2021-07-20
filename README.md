@@ -1,24 +1,12 @@
-# README
+# ACC
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Automatic Compiler of Compliments
 
-Things you may want to cover:
+For Pati with love
 
-* Ruby version
+TODO:
 
-* System dependencies
+1. Love!
+2. Configure the randomization of the issuance of compliments
+3. Make an admin panel
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
