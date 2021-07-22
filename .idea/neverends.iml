@@ -56,9 +56,6 @@
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.7, rbenv: 2.7.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.9, rbenv: 2.7.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, rbenv: 2.7.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="database_cleaner (v2.0.1, rbenv: 2.7.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="database_cleaner-active_record (v2.0.1, rbenv: 2.7.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="database_cleaner-core (v2.0.1, rbenv: 2.7.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, rbenv: 2.7.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.8.1, rbenv: 2.7.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.3, rbenv: 2.7.3) [gem]" level="application" />
