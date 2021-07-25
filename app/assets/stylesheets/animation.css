@@ -86,3 +86,38 @@
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+.fadeInUpSlow {
+    -webkit-animation-name: fadeInUpSlow;
+    animation-name: fadeInUpSlow;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    color: whitesmoke;
+    font-family: Helvetica;
+}
+@-webkit-keyframes fadeInUpSlow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInUpSlow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
