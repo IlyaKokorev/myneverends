@@ -3,14 +3,13 @@
 <div class="container-fluid d-flex h-100 justify-content-center align-items-center p-0">
   <div>
     <div>
-      <%= sample_compliment %>
-      <%# if @compliment[0].size > 1 %>
-<!--        <h1 class="first_block text-center mb-4 fadeInDown"><%#= @compliment[0][0] %></h1>-->
-<!--        </br>-->
-<!--        <h2 class="second_block text-center mb-4 fadeInUp"><%#= @compliment[0][1] %></h2>-->
-      <%# else %>
-<!--        <h1 class="first_block text-center mb-4 fadeIn"><%#= @compliment[0][0] %></h1>-->
-      <%# end %>
+      <% if @compliment[0].size > 1 %>
+        <h1 class="first_block text-center mb-4 fadeInDown"><%= @compliment[0][0] %></h1>
+        </br>
+        <h2 class="second_block text-center mb-4 fadeInUp"><%= @compliment[0][1] %></h2>
+      <% else %>
+        <h1 class="first_block text-center mb-4 fadeIn"><%= @compliment[0][0] %></h1>
+      <% end %>
     </div>
     <div class="container-fluid mb-8 mb-sm-0 d-flex justify-content-center align-items-center">
       <svg value="Refresh Page" onClick="window.location.reload();" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-heart fadeInUpSlow" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
