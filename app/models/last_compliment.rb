@@ -1,0 +1,2 @@
+class LastCompliment < ApplicationRecord
+end

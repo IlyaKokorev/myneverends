@@ -1,2 +1,0 @@
-class Pastcom < ApplicationRecord
-end

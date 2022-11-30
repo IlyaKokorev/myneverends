@@ -1,2 +1,0 @@
-class Precom < ApplicationRecord
-end

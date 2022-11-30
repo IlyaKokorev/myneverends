@@ -1,0 +1,2 @@
+class SingleCompliment < ApplicationRecord
+end

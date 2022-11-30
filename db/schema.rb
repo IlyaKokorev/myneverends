@@ -10,32 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_20_135607) do
+ActiveRecord::Schema.define(version: 2022_11_23_165837) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "compliments", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "pastcoms", force: :cascade do |t|
+  create_table "first_compliments", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["title"], name: "index_first_compliments_on_title"
   end
 
-  create_table "precoms", force: :cascade do |t|
+  create_table "last_compliments", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["title"], name: "index_last_compliments_on_title"
   end
 
-  create_table "sincoms", force: :cascade do |t|
+  create_table "single_compliments", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["title"], name: "index_single_compliments_on_title"
   end
 
 end
