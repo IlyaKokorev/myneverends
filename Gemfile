@@ -13,6 +13,7 @@ gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.6'
 gem 'jquery-rails'
 gem 'rubocop'
+gem 'uglifier'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
