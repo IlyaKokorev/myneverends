@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.8'
 
 gem 'activesupport'
+gem 'activeadmin'
+gem 'devise'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap'
 gem 'twitter-bootstrap-rails'
