@@ -13,7 +13,6 @@ gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.6'
 gem 'rubocop'
 gem 'uglifier'
-gem 'therubyracer'
 gem 'coffee-script-source'
 gem 'execjs'
 
@@ -32,8 +31,4 @@ end
 group :test do
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
-end
-
-group :production do
-  gem 'pg', '>= 0.18', ' < 2.0'
 end
